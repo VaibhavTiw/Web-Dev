@@ -1,0 +1,12 @@
+// neoGcamp ex 7
+
+var readlineSync = require('readline-sync');
+
+var score = 0;
+var cityName = readlineSync.question(" Enter your city ");
+if(cityName == "Bokaro"){
+  score = score + 1
+} else{
+  score = score -1
+}
+console.log("The score is " + score);
